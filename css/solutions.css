@@ -1,0 +1,230 @@
+.ex-1-square:hover {
+    animation-name: bgfill;
+    animation-duration: 5s;
+
+}
+
+@keyframes bgfill {
+    0% {
+        background-color: rgba(red, green, blue, 0);
+    }
+
+    100% {
+        background-color: red;
+    }
+
+}
+
+.ex-2-square:active {
+    animation-name: larger;
+    animation-duration: 5s;
+}
+
+@keyframes larger {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.ex-3-square:hover {
+    animation-name: cerchio;
+    animation-duration: 5s;
+}
+
+@keyframes cerchio {
+    0% {}
+
+    100% {
+        border-radius: 50%;
+    }
+}
+
+.ex-4-square:hover {
+    animation-name: dissolv;
+    animation-duration: 5s;
+}
+
+@keyframes dissolv {
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.ex-5-square:hover {
+    animation-name: hover;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes hover {
+    100% {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.ex-5-square:active {
+    animation-name: lezzo;
+    animation-duration: 3s;
+}
+
+@keyframes lezzo {
+
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-8-img:hover {
+    animation-name: effects;
+    animation-duration: 5s;
+}
+
+@keyframes effects {
+    100% {
+        border-radius: 50px;
+        filter: saturate(2);
+        filter: sepia(0.8);
+    }
+}
+
+.ex-9-img:hover {
+    animation-name: meffects;
+    animation-duration: 5s;
+}
+
+@keyframes meffects {
+    100% {
+        border-radius: 50px;
+        filter: saturate(2);
+        filter: sepia(0.8);
+        transform: scale(1.5);
+    }
+}
+
+.ex-10-icon {
+    animation-name: gira;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gira {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.ex-11-icon:hover {
+    animation-name: giraetorna;
+    animation-duration: 5s;
+}
+
+@keyframes giraetorna {
+    75% {
+        transform: rotate(280deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* ESERCIZIO 11 E 12 SVOLTI CONTEMPORANEAMENTE */
+
+.ex-12-top-white {
+    animation-name: whitetop;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes whitetop {
+
+    0% {}
+
+    20% {
+        left: 170px;
+        top: -20px;
+    }
+
+    45% {
+        top: 60px;
+        left: 170px;
+    }
+
+    65% {
+        left: -20px;
+        top: 60px;
+
+    }
+
+    80% {
+        top: -10px;
+        left: -10px;
+
+    }
+}
+
+.ex-12-bottom-white {
+    animation-name: whitebottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes whitebottom {
+    0% {
+        left: 140px;
+        top: 60px;
+    }
+
+    20% {
+        left: -20px;
+        top: 60px;
+    }
+
+    45% {
+        top: -20px;
+        left: -20px;
+    }
+
+    65% {
+        left: 170px;
+        top: -10px;
+
+    }
+
+    85% {
+        top: 60px;
+        left: 170px;
+
+    }
+
+    100% {
+        left: 140px;
+        top: 60px;
+    }
+}
+
+.ex-13-top-white {
+    animation-name: whitetop;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+.ex-13-bottom-white {
+    animation-name: whitebottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
